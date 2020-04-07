@@ -1,6 +1,8 @@
-package domain;
+package manager;
 
-public class Post {
+import domain.*;
+
+public class PostManager {
     private int ownerId;
     private int date;
     private String Image;
@@ -13,4 +15,15 @@ public class Post {
     private int isPinned;
     private Views views;
 
+    public Post[] wallSearch(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+        return null;
+    }
+
+    public Post[] wallDelete(int ownerId, int PostId) {
+        return null;
+    }
+
 }
+
+
+
