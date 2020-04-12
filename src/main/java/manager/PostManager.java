@@ -4,23 +4,18 @@ import domain.*;
 
 public class PostManager {
     private int ownerId;
-    private int date;
-    private String Image;
-    private String text;
-    private String URL;
-    private String ImageUrl;
-    private CommentsInfo commentsInfo;
-    private LikesInfo likesinfo;
-    private RepostsInfo reportsInfo;
-    private int isPinned;
-    private Views views;
+    private String domain;
+    private String query;
+    private boolean ownersOnly;
+    private int postId;
+    private  int count;
+    private int offset;
 
     public Post[] wallSearch(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
         return null;
     }
 
-    public Post[] wallDelete(int ownerId, int PostId) {
-        return null;
+    public Post[] wallDelete(int ownerId, int postId) {
     }
 
 }
