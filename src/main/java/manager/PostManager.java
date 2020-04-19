@@ -5,7 +5,7 @@ import domain.*;
 public class PostManager {
 
 
-    public Post[] wallSearch(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+    public Post[] wallSearch(int ownerId, String domain, String query, int ownersOnly, int count, int offset) {
         return null;
     }
 
